@@ -1,0 +1,49 @@
+#   developed by: Aysad Kozanoglu                               #
+#          email: aysadkozanoglu@gmail.com                      #
+#            web: http://xeon.dhis.org                           #
+#         Client: GameDuell                                     #
+#           task: Automated Logical Accesslog Analytic          #
+
+
+#
+# requirements:
+#
+
+- Linux environment: 
+	recommended is Debian :) 
+
+- bzip2 package:
+	apt-get install bzip2
+
+- php:
+	simplest way get lampp from  
+		http://www.apachefriends.org/de/xampp-linux.html
+
+        install: 
+		tar xvfz YOURLAMPFILE.tar.gz -C /opt
+
+#
+#Installation:
+#
+
+- extract the files:
+	tar xfvz GameDuellAnalyser.tar.gz	
+
+- set access rights:
+	 make executable the sh script:
+		chmod +x gameduell/start.sh
+
+	 make writetable tmp folder:
+		chmod -R gameduell/tmp
+
+#
+# Start
+#
+- starting the script:
+	 cd gameduell
+           ./start.sh
+
+
+TEST ON DEBIAN in VMWARE environment
+
+Good Luck ;)
