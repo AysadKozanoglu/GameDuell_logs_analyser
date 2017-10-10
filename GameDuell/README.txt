@@ -1,3 +1,6 @@
+this script is only for gameDuell Servers logsfiles logical structur
+
+
 make script executable
 chmod +x start.sh
 
