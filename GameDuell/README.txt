@@ -9,3 +9,6 @@ example: ./start.sh
 
 
 and follow the instructions in the console.
+
+
+Aysad Kozanoglu | on 02-09-2009
